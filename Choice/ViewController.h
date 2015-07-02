@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnChoice;
+- (IBAction)makeChoice:(id)sender;
 
 @end
 
